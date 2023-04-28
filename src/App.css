@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.main-screen{
+  display:block;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height:82%;
+  width: 66%;
+  background: rgb(255, 255, 255);
+  position:relative;
+  transform: translate(25%, 8%);
 }
 
-.App-link {
-  color: #61dafb;
+
+.App {
+  overflow: hidden;
+  /* position: relative; */
+  height:100vh;
+  width:100vw;
+  box-sizing: border-box;
+  text-align: center;
+  background: url('https://studio-dbly.com/wp-content/plugins/edge-cpt/shortcodes/case-study/assets/img/laptop-dark.png');
+  background-size: 100% 120%;
+  background-repeat: no-repeat;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
